@@ -1,0 +1,34 @@
+{
+  "name": "toy-robot-node",
+  "version": "1.0.0",
+  "description": "Toy Robot Simulator code challenge",
+  "author": {
+    "name": "Ryan Whitlie",
+    "url": "https://github.com/moosch"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "keywords": [],
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moosch/toy-robot-node"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "babel-node ./src/index.js",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/node": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/register": "^7.7.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "sinon": "^8.0.2"
+  },
+  "dependencies": {}
+}
