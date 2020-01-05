@@ -3,7 +3,7 @@ import sinon from 'sinon';
 
 import handleLineInput, { processAction } from '../actions';
 import * as reducers from '../reducers';
-import * as utils from '../utils';
+import * as utils from '../../components/utils';
 
 describe('actions test', () => {
 

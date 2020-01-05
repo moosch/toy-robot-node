@@ -1,13 +1,13 @@
-import { DIRECTIONS } from './constants';
+import { COMMANDS, DIRECTIONS } from './constants';
 
 const stateValidator = {
   max: 5,
   min: 0,
   validate: {
-    x: (x) => x <= stateValidator.max && x >= stateValidator.min,
-    y: (y) => y <= stateValidator.max && y >= stateValidator.min,
+    x: (x) => typeof x === 'number' && x <= stateValidator.max && x >= stateValidator.min,
+    y: (y) => typeof y === 'number' && y <= stateValidator.max && y >= stateValidator.min,
     f: (f) => typeof f === 'string' && DIRECTIONS.includes(f),
-    cmd: (cmd) => typeof cmd === 'string' && ['PLACE', 'MOVE', 'LEFT', 'RIGHT', 'REPORT'].includes(cmd),
+    cmd: (cmd) => typeof cmd === 'string' && COMMANDS.includes(cmd),
   }
 };
 

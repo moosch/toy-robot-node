@@ -8,6 +8,8 @@ Install dependencies with `npm ci`.
 
 Then `npm run start` and paste your input followed by ⏎
 
+To run tests use `npm run test`
+
 ### Examples
 
 * Example a *

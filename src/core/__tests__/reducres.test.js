@@ -7,7 +7,7 @@ import {
   report,
   turn,
 } from '../reducers';
-import stateValidator from '../components/validators';
+import stateValidator from '../../components/validators';
 
 describe('reducers test', () => {
 
